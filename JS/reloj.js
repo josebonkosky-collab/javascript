@@ -12,7 +12,6 @@ class reloj {
             this.minuto++;
         }
 
-        // Al alcanzar el minuto 1, reinicia todo a cero
         if (this.minuto === 1) {
             this.minuto = 0;
             this.segundo = 0;
